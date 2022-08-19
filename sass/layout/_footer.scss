@@ -19,15 +19,15 @@
     color: var(--accent-color);
 }
 
-.adress-list {
+.adress__list {
     font-style: normal;
 }
 
-.address-item {
+.address__item {
     margin-bottom: 0;
 }
 
-.address-link {
+.address__link {
     font-family: var(--main-font);
     font-size: 14px;
     line-height: 1.71;
@@ -38,13 +38,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-link-item,
-.mail-link-item {
+.address__link-item,
+.mail__link-item {
     margin-bottom: 9px;
 }
 
-.mail-link,
-.tel-link {
+.mail__link,
+.tel__link {
     font-family: var(--main-font);
     font-size: 14px;
     line-height: 1.71;
@@ -55,12 +55,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-link:hover,
-.address-link:focus,
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus {
+.address__link:hover,
+.address__link:focus,
+.mail__link:hover,
+.mail__link:focus,
+.tel__link:hover,
+.tel__link:focus {
     color: var(--accent-color);
 }
 
@@ -69,11 +69,11 @@
 
 }
 
-.footer-container-address {
+.footer-container__address {
     margin-right: 70px;
 }
 
-.footer-join-title {
+.footer__join-title {
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: 700;
@@ -84,18 +84,18 @@
     color: #ffffff;
 }
 
-.footer-social {
+.footer__social {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.footer-social-item {
+.footer__social-item {
     width: 44px;
     height: 44px;
 }
 
-.footer-social-link {
+.footer__social-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,20 +111,19 @@
 &:focus {
     background-color: var(--accent-color);
 }
-
 }
 
-.footer-social-icon {
+.footer__social-icon {
     fill: currentColor;
 }
 
-.footer-container-subscribe {
+.footer-subscribe {
     margin-left: auto;
     display: inline-grid;
     margin-left: 93px;
 }
 
-.footer-subscribe-title {
+.footer-subscribe__title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -138,7 +137,7 @@
     display: flex;
 }
 
-.email-form-input {
+.email-form__input {
     margin-right: 12px;
     padding: 15px 16px;
     min-width: 358px;
@@ -150,16 +149,4 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.9);
     outline: transparent;
-}
-
-.email-form-btn {
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-    padding: 10px 28px;
-}
-
-.form-btn-icon {
-    fill: #ffffff;
-    margin-left: 10px;
 }

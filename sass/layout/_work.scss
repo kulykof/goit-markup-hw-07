@@ -2,7 +2,7 @@
     padding-top: 0;
 }
 
-.work-title {
+.work__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -11,13 +11,13 @@
     text-align: center;
 }
 
-.work-list {
+.work__list {
     display: flex;
     margin-right: auto;
     margin-left: auto;
 }
 
-.work-item {
+.work__item {
     margin-right: 30px;
 
 &:last-child {
@@ -29,7 +29,7 @@
     position: relative;
 }
 
-.work-wrap-title {
+.work-wrap__title {
     position: absolute;
     bottom: 0;
     left: 0;

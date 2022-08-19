@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -7,12 +7,12 @@
     text-align: center;
 }
 
-.clients-list {
+.clients__list {
     display: flex;
     justify-content: center;
 }
 
-.clients-item {
+.clients__item {
     width: 170px;
     height: 92px;
 
@@ -21,7 +21,7 @@
 }
 }
 
-.clients-link {
+.clients__link {
     display: flex;
     height: 100%;
     align-items: center;
@@ -40,6 +40,6 @@
 }
 }
 
-.clients-icon {
+.clients__icon {
     fill: currentColor;
 }
